@@ -1,0 +1,27 @@
+import React from 'react'
+//hooks
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import Navbar from './components/NavBar'
+import Atividades from './pages/atividades/Atividades'
+import HomePage from './pages/home/HomePage'
+import ProjetoExtensao from './pages/projetoExtensao/ProjetoExtensao'
+
+const App: React.FC = () => {
+  return (
+    <>
+      <BrowserRouter>
+        <div className="h-full">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/projeto-de-extensao" element={<ProjetoExtensao />} />
+            <Route path="/atividades" element={<Atividades />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    </>
+  )
+}
+
+export default App
