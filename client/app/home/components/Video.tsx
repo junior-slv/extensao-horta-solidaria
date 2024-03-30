@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Video: React.FC = () => {
   return (
@@ -16,14 +16,14 @@ const Video: React.FC = () => {
             title="Vídeo Institucional"
             width="100%"
             height="400"
-            src="https://www.youtube.com/embed/1keuldcqybg"
+            src="https://www.youtube.com/embed/KpcRwfvsy3s?si=E-1x4UDlV3kEhYpN"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Video
+export default Video;
