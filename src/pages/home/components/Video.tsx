@@ -2,7 +2,7 @@ import React from 'react'
 
 const Video: React.FC = () => {
   return (
-    <div className="w-full bg-gray-100 p-20">
+    <div className="w-full bg-gray-100 p-20" id="video">
       <div className="text-center font-bold">
         <h1 className="mb-3 text-4xl font-bold tracking-wide text-gray-900">
           Vídeo Institucional

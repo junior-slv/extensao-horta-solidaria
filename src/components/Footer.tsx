@@ -1,5 +1,6 @@
 import React from 'react'
 import { BiLeaf } from 'react-icons/bi'
+import { Link } from 'react-router-dom'
 
 const Footer: React.FC = () => {
   return (
@@ -17,17 +18,17 @@ const Footer: React.FC = () => {
               <h2 className="mb-6 text-sm font-semibold uppercase">Recursos</h2>
               <ul className="font-medium">
                 <li className="mb-4">
-                  <a href="https://figma.com/" className="hover:underline">
+                  <Link to="https://figma.com/" className="hover:underline">
                     Figma
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="https://github.com/junior-slv/extensao-horta-solidaria"
+                  <Link
+                    to="https://github.com/junior-slv/extensao-horta-solidaria"
                     className="hover:underline"
                   >
                     Github
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -35,14 +36,14 @@ const Footer: React.FC = () => {
               <h2 className="mb-6 text-sm font-semibold uppercase">Legal</h2>
               <ul className="font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <Link to="#" className="hover:underline">
                     Política de privacidade
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">
+                  <Link to="#" className="hover:underline">
                     Termos &amp; Condições
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

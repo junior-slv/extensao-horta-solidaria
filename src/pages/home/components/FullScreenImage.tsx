@@ -1,5 +1,6 @@
 // FullscreenImage.tsx
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 interface FullscreenImageProps {
   imageUrl: string
@@ -27,12 +28,12 @@ const FullscreenImage: React.FC<FullscreenImageProps> = ({ imageUrl }) => {
               recursos
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
+              <Link
+                to="#"
                 className="rounded-md bg-yellow-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm"
               >
                 Conhecer Projeto
-              </a>
+              </Link>
               <a
                 href="#"
                 className="rounded-lg border border-yellow-400 px-3.5 py-2.5 text-sm font-semibold text-yellow-400"

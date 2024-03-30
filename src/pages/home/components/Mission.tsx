@@ -17,7 +17,7 @@ const Mission: React.FC = () => {
         </p>
         <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
           <a
-            href="#"
+            href="#video"
             className="inline-flex items-center justify-center rounded-lg bg-green-700 px-4 py-2.5 text-center text-base font-medium text-white"
           >
             <BiCameraMovie className="text-lg" />
