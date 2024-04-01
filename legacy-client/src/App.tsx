@@ -12,7 +12,7 @@ const App: React.FC = () => {
   return (
     <>
       <BrowserRouter>
-        <div className="h-full">
+        <div className="h-full overflow-x-hidden">
           <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
