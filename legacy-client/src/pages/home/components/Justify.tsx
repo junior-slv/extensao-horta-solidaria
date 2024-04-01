@@ -3,7 +3,7 @@ import React from 'react'
 const Justify: React.FC = () => {
   return (
     <section className="grid w-full grid-cols-1 items-center bg-white p-5 md:grid-cols-2 md:p-20">
-      <div className="mx-auto w-full px-4 py-8 text-center lg:px-6">
+      <div className="mx-auto w-full px-4 py-8 text-center md:text-left lg:px-6">
         <h2 className="mb-4 text-2xl font-bold tracking-tight text-green-900 md:text-4xl">
           Nosso Trabalho
         </h2>
